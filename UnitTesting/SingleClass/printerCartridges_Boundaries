@@ -1,0 +1,21 @@
+Min order = 5.
+Discount of 20% for orders of 100 or more.
+
+2 values:
+    Order of min. 5: 
+        Valid Lower boundary = 5
+        Invalid Lower boundary = 4
+        Valid Upper boundary = 99
+        Invalid Upper boundary = 100
+    Order of 100 or more for 20% discount:
+        Valid Lower boundary = 100
+        Invalid Lower boundary = 99
+        Valid Upper boundary = 
+        
+3 Values:
+    Order of min. 5:
+        Lower boundaries = 4,5,6
+        Upper boundaries = 98, 99, 100
+    Order of 100 or more 20% discount:
+        Lower boundaries = 100, 99, 101
+        Upper boundaries =

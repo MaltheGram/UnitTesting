@@ -1,0 +1,29 @@
+Correct Employee:
+        CPR: 
+        "30019821000", I-integer, I-special characters, I-length.
+        first & last name length: 
+            I-0, 1, 2, 29, 30, I-31
+        birthDate:
+            I-17, 18, 19, 85
+        department:
+            I-Managers, HR, 
+        baseSalary:
+            I-19_999, 20_000, 20_001, 99_999, I-10_001
+
+getSalary:
+    I- negative base salary, 
+        baseSalary:
+                I-19_999, 20_000, 20_001, 99_999, I-10_001
+
+getDiscount:
+    I-Future employment date, Anniversary-Today, Leap Year, Hired-Today, 2-Year-Employment, 50-Year-Employment
+    
+getShipping:
+    DK, Norway, Sweden:
+       I- -1, 0, I-0,1
+    Iceland, Finland:
+        I-0, 0,5, I-0,51
+    World:
+        I-0, 0,5, 1
+        
+        

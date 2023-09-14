@@ -1,4 +1,4 @@
-namespace TestSuite;
+namespace UnitTesting;
 
 /**
  I          1

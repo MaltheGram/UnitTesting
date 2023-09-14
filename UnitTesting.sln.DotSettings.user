@@ -2,5 +2,10 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d34f560_002D688d_002D4cc5_002Dbbb0_002Dc6cac942b692/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::F84A98EA-97E2-4F81-81CA-9D27B4DF9EB7::net7.0::UnitTesting.Tests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::F84A98EA-97E2-4F81-81CA-9D27B4DF9EB7::net7.0::UnitTesting.Mocking.Add_Should_Return_Sum&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::F84A98EA-97E2-4F81-81CA-9D27B4DF9EB7::net7.0::UnitTesting.EmployeeTest.Should_Succeed_GetSalary&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::F84A98EA-97E2-4F81-81CA-9D27B4DF9EB7::net7.0::UnitTesting.EmployeeTest.Should_Succeed_GetDiscount&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::F84A98EA-97E2-4F81-81CA-9D27B4DF9EB7::net7.0::UnitTesting.EmployeeTest.Should_Succeed_GetShipping&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::F84A98EA-97E2-4F81-81CA-9D27B4DF9EB7::net7.0::UnitTesting.EmployeeTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,29 @@
+if order <= 20GBP {
+    fee = 3.95
+}
+if order > 20GPB && order <= 40GBP {
+    fee = 4.95
+}
+if order > 40GBP {
+    fee = 0
+}
+
+Partitions:
+1 - 20;
+20.01 - 40
+40.01 - infinite
+
+Invalid Partitions:
+< 0
+0
+Invalid data types
+
+valid test cases:
+15GBP = fee, 3.95
+30GBP = fee, 4.95
+45GBP = fee, 0
+
+invalid test cases:
+-0.01
+0 
+

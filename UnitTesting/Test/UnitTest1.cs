@@ -1,5 +1,4 @@
 using NUnit.Framework;
-using TestSuite;
 
 namespace UnitTesting
 {
@@ -70,10 +69,21 @@ namespace UnitTesting
             Assert.That(result, Is.EqualTo(expected));
         }
         
+        static readonly object[] TestDataAdd =
+        {
+            new object[] { 2, 3, 5 },
+            new object[] { -1, 1, 0 },
+            new object[] { 0, 0, 0 },
+            // Add more test cases as needed
+        };
+        
         // Parameterised Tests
-        [TestCase(5,10,15)]
+        /* [TestCase(5,10,15)]
         [TestCase(10,10,20)]
         [TestCase(200, 800, 1000)]
+        [TestCase(300, 800, 1000)] // Supposed to fail
+        */
+        [TestCaseSource(nameof(TestDataAdd))]
         public void Should_Succeed_Parameterised_CalculatorAdd(int a, int b, int expected)
         {
             int result = calculator.Add(a, b);
@@ -91,7 +101,7 @@ namespace UnitTesting
         public void Should_Fail_Parameterised_CalculatorAdd(int a, int b, int expected)
         {
             int result = calculator.Add(a, b);
-            Assert.That(result, Is.EqualTo(expected));
+            Assert.That(result, !Is.EqualTo(expected));
         }
     }
 }
